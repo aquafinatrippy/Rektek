@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     color: #323232;
     font-size: 15px;
@@ -17,10 +17,7 @@ body {
 .pilt{
     border-radius: 40%;
 }
-.tekst{
-    padding: 100px;
-    text-align: center;
-}
+
 #myBTN{
     position: fixed;
     z-index: 99;
@@ -38,10 +35,7 @@ body {
 #myBTN:hover{
     background-color: #f75200;
 }
-#kesk{
-    left: 45%;
-    top: 20px;
-}
+
 .jaluslinkid{
     color:blue;
 }
@@ -176,43 +170,16 @@ html {
     padding: 0px;
     overflow-x: hidden; 
   }
-.joonda{
-    display: inline-block;
-    margin-bottom: 100px;
-}  
-#j2rj{
-    display: inline-block;
-    margin-left:10%;
-}
-#vasak{
-    float: left;
-    width: 400px;
-    height: 275;
-    padding-left: 40px;
-}
-#vasak2{
-    float: left;
-    width: 400px;
-    height: auto;
-}
-#vasak3{
-    float:left;
-    width: 400px;
-    height: auto;
-}
-.tekst2{
-    text-align: center;
-}
+
 .formaal{
     background-color: rgba(153, 153, 102, 0.3);
     padding: 20px;
     bottom: 20px;
 }
 .formaal2{
-    background-color: rgba(153, 153, 102, 0.3);
-    margin-bottom: 100px;
-    
+    font-size: 16px;
 }
+
 #jalus{
     top: 1000px;
 }
@@ -220,30 +187,39 @@ html {
     bottom: 0;
     margin-top: 200px;
 }
-.vasakyl{
-    float: left;
-    padding: 20px;
 
-}
 .ow{
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
     text-align: center;
 }
-.contentx{
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-}
+
 @media only screen and (max-width: 768px) {
     p {
-      font-size: 20px;
+      font-size: 20px !important;
     }
+    .taust img{
+      height: 80vh;
+      width: 100vw;
+     }
+     .container-fluid{
+         width: 100% !important;
+     }
   }
   
   @media only screen and (max-width: 320px) {
     p {
-      font-size: 10px;
+      font-size: 10px !important;
     }
   }
+  a:hover{
+    color:#f75200 !important;
+  }
+  .container-fluid{
+      width: 80%;
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+  
+  

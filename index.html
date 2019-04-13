@@ -6,14 +6,15 @@
     <title>Rektek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="rektek.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="rektek.css">
 </head>
 <body>
         
     <button onclick='topFunction()' id='myBTN' value='tagasi ülesse'><i class="fa fa-angle-double-up"></i></button>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top " id='kleebub'>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top " id='kleebub'>
     <a class="navbar-brand" href="#"><img src="rekteklogo.png" width="80"></img></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,8 @@
         </ul>
     </div>
 </nav>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="taust">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -67,73 +69,64 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div id="about" class="about-area formaal2">
-    <div class="conteiner  text-center">
-        <div class="col" id='firmakohta'>
-            <h2>Firma kohta</h2>
-            <p class='contentx'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl ligula, pulvinar eu felis in, semper dictum lorem. Pellentesque consequat sagittis nisl in lobortis. Cras sit amet convallis lacus, in consequat lacus. Nulla ultricies elementum blandit. Proin massa neque, fringilla non urna vitae, condimentum suscipit enim. Donec venenatis purus in egestas aliquam. Suspendisse potenti.
 
-                Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam luctus leo a sapien mollis vehicula id eu elit. Quisque hendrerit fermentum arcu. Vestibulum vestibulum arcu nec euismod vestibulum. Vestibulum a vulputate lorem. Suspendisse ultricies posuere eros, eu porta turpis tristique vel. Vestibulum magna ipsum, consequat id molestie vel, egestas vel nulla. Aliquam vitae metus efficitur, tincidunt elit in, pretium nisl. Sed convallis turpis vel est pulvinar, imperdiet imperdiet nisi fermentum. Aliquam eget blandit mi. Sed vehicula neque lorem, vitae pellentesque mauris bibendum ut.
+</div>
 
-                Cras condimentum a libero sed sagittis. Maecenas pellentesque semper leo, in tristique odio hendrerit eu. Cras blandit lorem at sagittis congue. Maecenas et risus tristique, semper nulla sit amet, faucibus sapien. Sed bibendum efficitur lobortis. Aenean congue pretium lacinia. Suspendisse arcu nibh, iaculis sed lacinia in, hendrerit id velit. Morbi pellentesque quis quam quis fermentum. Donec magna velit, feugiat in augue vel, rutrum dignissim velit. Sed a urna molestie, pellentesque lorem ac, euismod ipsum. Duis tristique ultricies risus quis blandit. Suspendisse ut sodales mi. Aenean fermentum nibh vel enim tempor lobortis. In eros leo, facilisis vitae ligula sed, iaculis sollicitudin dui.
+
+    <div class="container  text-center">
+    <div id="about" class="about-area formaal2">
+                 
+
+    
+        <div class="col" id="firmakohta">
+            <h1>Firma kohta</h1><br>
+            <p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl ligula, pulvinar eu felis in, semper dictum lorem. Pellentesque consequat sagittis nisl in lobortis. Cras sit amet convallis lacus, in consequat lacus. Nulla ultricies elementum blandit. Proin massa neque, fringilla non urna vitae, condimentum suscipit enim. Donec venenatis purus in egestas aliquam. Suspendisse potenti.
+
 
                  </p>
-                 <div class='joonda '>
-                        <div class='vasakyl'>
-                            <img src='garaaz.jpg' height="250px" width="350px">
+<br><br>
 
-                        </div>
-                        <div class='vasakyl'>
-                            <img src='tuuning.jpg' height="250px" width="350px">
-                       </div>
-                        <div class='vasakyl'>
-                            <img src='pood.JPG' height="250px" width='350px'>
-                      </div>
-                    </div>
+        <div class="container-fluid" id='teenustekohta'>
+            <h1>Teenuste kohta</h1><br>
+            <p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl ligula, pulvinar eu felis in, semper dictum lorem. Pellentesque consequat sagittis nisl in lobortis. Cras sit amet convallis lacus, in consequat lacus. Nulla ultricies elementum blandit. Proin massa neque, fringilla non urna vitae, condimentum suscipit enim. Donec venenatis purus in egestas aliquam. Suspendisse potenti.
 
-        <div class="cointainer-fluid" id='teenustekohta'>
-            <h2>Teenuste kohta</h2>
-            <p class='contentx'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisl ligula, pulvinar eu felis in, semper dictum lorem. Pellentesque consequat sagittis nisl in lobortis. Cras sit amet convallis lacus, in consequat lacus. Nulla ultricies elementum blandit. Proin massa neque, fringilla non urna vitae, condimentum suscipit enim. Donec venenatis purus in egestas aliquam. Suspendisse potenti.
-
-                Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam luctus leo a sapien mollis vehicula id eu elit. Quisque hendrerit fermentum arcu. Vestibulum vestibulum arcu nec euismod vestibulum. Vestibulum a vulputate lorem. Suspendisse ultricies posuere eros, eu porta turpis tristique vel. Vestibulum magna ipsum, consequat id molestie vel, egestas vel nulla. Aliquam vitae metus efficitur, tincidunt elit in, pretium nisl. Sed convallis turpis vel est pulvinar, imperdiet imperdiet nisi fermentum. Aliquam eget blandit mi. Sed vehicula neque lorem, vitae pellentesque mauris bibendum ut.
-
-                Cras condimentum a libero sed sagittis. Maecenas pellentesque semper leo, in tristique odio hendrerit eu. Cras blandit lorem at sagittis congue. Maecenas et risus tristique, semper nulla sit amet, faucibus sapien. Sed bibendum efficitur lobortis. Aenean congue pretium lacinia. Suspendisse arcu nibh, iaculis sed lacinia in, hendrerit id velit. Morbi pellentesque quis quam quis fermentum. Donec magna velit, feugiat in augue vel, rutrum dignissim velit. Sed a urna molestie, pellentesque lorem ac, euismod ipsum. Duis tristique ultricies risus quis blandit. Suspendisse ut sodales mi. Aenean fermentum nibh vel enim tempor lobortis. In eros leo, facilisis vitae ligula sed, iaculis sollicitudin dui.
 
              </p>
-        <div class='joonda '>
-            <div class='vasakyl'>
-                <img src='diagnoostika.jpg' height="250px" width="350px">
+        <div class='row'>
+            <div class='col'>
+                <img src='diagnoostika.jpg' height="250px" width="250px" style="border-radius:70%;">
                 <h3>Diagnoostika</h3>
                 <p > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
-            <div class='vasakyl'>
-                <img src='rehvid.jpg' height="250px" width="350px">
+            <div class='col'>
+                <img src='rehvid.jpg' height="250px" width="250px" style="border-radius:70%;">
                 <h3>Rehvi vahetus</h3>
                 <p > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
-            <div class='vasakyl'>
-                <img src='v2rv.jpg' height="250px" width='350px'>
+            <div class='col'>
+                <img src='v2rv.jpg' height="250px" width='250px' style="border-radius:70%;">
                 <h3>Värvimine</h3>
                 <p > Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
         </div>
 
-
+<br><br>
 
        
 </div>
 </div>
     </div>
     </div>
-    <h2 class="tekst" id='meeskonnakohta'>Meeskond</h2>
-    <div class='joonda' id='j2rj'>
-    <div class="col-md-4 col-sm-4" id='vasak'>
+    <div class="container-fluid ">
+    <h1 class="text-center" id='meeskonnakohta'>Meeskond</h1>
+    <div class=' row'>
+    <div class="col" >
         <div class="team-member">
             <div class="team-img">
                 <img src="margus.jpg" alt="team member" class="img-responsive"  width="auto" height="300">
             </div>
             <div class="team-hover">
-                <div class="desk">
+                <div class="text-center" >
                     
                     <p>margusa@rektek.ee<br>
                         +3725675675
@@ -147,12 +140,12 @@
             </div>
         </div>
         <div class="team-title">
-            <h5 class='tekst2'>Margus Aas</h5>
-            <span class='tekst'>Direktor</span>
+            <h5 class='text-center'>Margus Aas</h5>
+            <p class='text-center'>Direktor</p>
         </div>
     </div>
-    <div class="col-md-4 col-sm-4" id='vasak2'>
-        <div class="team-member">
+    <div class="col" >
+        <div class="team-member ">
             <div class="team-img">
                 <img src="teenindaja.jpg" alt="team member" class="img-responsive" width="auto" height="300">
             </div>
@@ -172,14 +165,14 @@
             </div>
         </div>
         <div class="team-title">
-            <h5 class='tekst2'>Sille Radiaator</h5>
-            <span class='tekst'>Teenindaja</span>
+            <h5 class='text-center'>Sille Radiaator</h5>
+            <p class='text-center'>Teenindaja</p>
         </div>
     </div>
-    <div class="col-md-4 col-sm-4" id='vasak3'>
-        <div class="team-member">
+    <div class="col" >
+        <div class="team-member col">
             <div class="team-img">
-                <img src="toomees.jpg" alt="team member" class="img-responsive" width="auto" height="300">
+                <img src="toomees.jpg" alt="team member" class="img-responsive "  width="auto" height="300">
             </div>
             <div class="team-hover">
                 <div class="desk">
@@ -196,13 +189,13 @@
             </div>
         </div>
         <div class="team-title">
-            <h5 class='tekst2'>Kaupo Mutter</h5>
-            <span class='tekst'>Mehaanik</span>
+            <h5 class='text-center'>Kaupo Mutter</h5>
+            <p class='text-center'>Mehaanik</p>
         </div>
     </div>
-
 </div>
-    <form class="form-group align-items-center justify-content-center" id='tagasisidekohta'>
+</div>
+    <form class="form-group align-items-center d-flex text-center justify-content-center" id='tagasisidekohta'>
         
         <div class="container formaal">
             <h1 class='tekst2'>Tagasiside vorm</h1>
@@ -228,8 +221,8 @@
         <div class="col" style='top: 10px;'>
             <input type="text" class="form-control" placeholder="kaebus">
         </div>
-        <div class="col" id='kesk'>
-        <button type="button" class="btn btn-dark">Saada</button>
+        <div class="col" id='kesk'><br><br>
+        <button type="button" class="btn btn-warning">Saada</button>
         </div>
         </div>
     </form>
