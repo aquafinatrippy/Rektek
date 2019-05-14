@@ -1,3 +1,3 @@
 # Rektek
-Rektek projekt
+Rektek projekt. 
 Kõige esimene enda tehtud kooliprojekt.
